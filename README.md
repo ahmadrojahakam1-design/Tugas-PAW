@@ -1,6 +1,6 @@
-# CRUD Data Game (PHP Procedural + MySQL)
+# CRUD Data Game 
 
-Aplikasi CRUD sederhana untuk data game. Semua data diinput lewat form (tidak hardcode).
+Aplikasi CRUD sederhana untuk data game. Semua data diinput lewat form.
 
 ## Struktur File
 - koneksi.php -> koneksi ke database
@@ -14,15 +14,5 @@ Aplikasi CRUD sederhana untuk data game. Semua data diinput lewat form (tidak ha
 1. Copy folder ini ke htdocs (XAMPP) / www (Laragon)
 2. Aktifkan Apache & MySQL
 3. Buka phpMyAdmin, tab Import, pilih database.sql, klik Go
-4. Buka http://localhost/crud-game-simple/index.php
+4. Buka http://localhost/"Nama folder"/index.php
 5. Klik "Tambah Data" untuk mulai input data lewat form
-
-## Upload ke GitHub
-```
-git init
-git add .
-git commit -m "CRUD Data Game"
-git branch -M main
-git remote add origin https://github.com/USERNAME/REPO.git
-git push -u origin main
-```
