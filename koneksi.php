@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "RojaSuper001!";
+$pass = "";
 $db   = "db_game";
 
 $koneksi = mysqli_connect($host, $user, $pass, $db);
