@@ -1,0 +1,11 @@
+CREATE DATABASE db_game;
+USE db_game;
+
+CREATE TABLE game (
+  id INT(11) AUTO_INCREMENT PRIMARY KEY,
+  judul VARCHAR(100) NOT NULL,
+  genre VARCHAR(50) NOT NULL,
+  platform VARCHAR(50) NOT NULL,
+  tahun INT(4) NOT NULL,
+  harga INT(11) NOT NULL
+);
